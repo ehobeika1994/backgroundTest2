@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#96ff96"
+    android:padding="6px"
+    >
+	<TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/hello"
+    	android:background="@drawable/theborder"
+    />
+    
+    <EditText  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="       "
+    	android:textColor="#0000ff"
+    	android:background="@drawable/theborder"
+    />
+    <Button
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:background="@drawable/theborder"
+    	android:text="Press to Exit"    	
+    />
+    <Button  
+    	android:id="@+id/exit_button"
+    	android:gravity="center"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:text="ExitExit"
+    />
+</LinearLayout>
